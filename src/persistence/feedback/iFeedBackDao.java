@@ -1,0 +1,1 @@
+package persistence.feedback;import java.sql.Connection;import java.util.List;import model.FeedBack;public interface iFeedBackDao {	void inserir (FeedBack feed);	List<FeedBack> listar (FeedBack feed);	void setConnection(Connection connection);}

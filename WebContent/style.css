@@ -1,0 +1,55 @@
+body {
+	font: 400 16px Times New Roman, Arial, Arial Nova Light, sans-serif;
+	line-height: 1.8;
+	background-color: #CAD9D6;
+}
+nav{
+	background-color: #3F8075;
+	color: #D4FFF8;
+}
+nav a{
+	text-decoration: none;
+	padding: 10px 10px;
+	color: #D4FFF8 !important;
+	text-shadow: 1px 1px 1px 1px #111;
+}
+nav a:hover{
+	text-decoration: none;
+	background-color: #6A807C;
+	color: #D4FFF8;
+}
+#main{
+	margin: 60px;
+}
+footer {
+	margin: 0 0 0 0;
+	height: 90px;
+	background-color: #3F8075;
+	color: #D4FFF8;
+}
+
+footer div {
+	text-align: center
+}
+
+.login {
+	margin-top: 100px;
+}
+
+.login .jumbotron {
+	color: #D4FFF8;
+	background-color: #3F8075;
+}
+
+.alert {
+	display: none;
+}
+.card{
+	margin: 20px 20px auto;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: .5px .5px .5px .5px;
+}
+.card .card-header{
+	background-color: #3F8075;
+	color: #D4FFF8;
+}
